@@ -216,7 +216,7 @@
                     $fim_intersticio[$b] = $linha['data_fim_intersticio'];}
                     $b=0;
                     if (mysqli_num_rows($resultado) > 0) {
-                        // Crie um <select> e preencha as opções com os valores do banco de dados
+                        // Um <select> e preencha as opções com os valores do banco de dados
                         echo "<select name='intersticio' class='sair'> a";
                         for ($c=0; $c<$a; $c++){
                             $sql_inter = "select * from tbl_intersticio where id_intersticio = ".$intersticio[$b];
