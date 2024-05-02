@@ -170,7 +170,7 @@ h1 {
   display: block;
   
   padding: 14.5px;
-  width: 20%;
+  width: 30%;
   margin: 2rem 0;
   margin-top: 0.5rem;
   color: #000000;
@@ -189,7 +189,7 @@ h1 {
 }
 
 .login-container form input:focus {
-  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 16px 1px rgba(151, 28, 28, 0.2);
   animation: wobble 0.3s ease-in;
   -webkit-animation: wobble 0.3s ease-in;
 }
@@ -280,7 +280,7 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   h1{
-  font-size: 12px;
+  font-size: 20px;
 
   }
   body{
@@ -288,6 +288,10 @@ h1 {
   }
   .login-container form button{
     font-size: 10px;
+  }
+  .login-container form input{
+    font-size: 10px;
+    padding: 10px;
   }
 }
 .sair{
